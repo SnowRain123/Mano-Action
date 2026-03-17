@@ -6,7 +6,7 @@ GUI grounding maps natural-language instructions to precise UI actions and coord
 Learn both directions to form a round trip:
 - Text → Action: predict the target element and its coordinates.
 - Action → Text: describe the element at the given coordinates.
-If the round trip stays consistent (text → click → text or click → text → click), the model is rewarded. This encourages diverse, accurate descriptions and sharper localization.
+If the round trip stays consistent, the model is rewarded. This encourages diverse, accurate descriptions and sharper localization.
 
 ## Training Overview
 - SFT warm-up: bidirectional supervision so the model can both localize and describe.
