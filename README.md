@@ -21,5 +21,3 @@ If the round trip stays consistent (text → click → text or click → text �
 
 ## Results
 State-of-the-art among comparable-size models on four GUI grounding benchmarks, validating the effectiveness of the bidirectional, cycle-consistent paradigm.
-
-Keywords: GUI grounding, UI understanding, cycle consistency, multimodal LLM post-training
